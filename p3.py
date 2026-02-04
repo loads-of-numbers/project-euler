@@ -1,6 +1,6 @@
 # I got stuck for quite some time trying to use the sieve of Eratosthenes when, in fact, the simplest
-# approach was the best one. It can handle numbers of incredible magnitude: try adding a bunch
-# of digits to this (already large) n. The answer is 6857.
+# approach was the best one. It can handle numbers of great magnitude: try adding some
+# digits to this (already large) n. The answer is 6857.
 
 def lpd(n):  # finds the largest prime divisor (lpd) of n by prime factorization
     lpd = 1
