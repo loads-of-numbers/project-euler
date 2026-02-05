@@ -1,2 +1,3 @@
 Note that in an n x n grid, you always need to make 2n movements to go "monotonically" -- that is, without returning using "up" or "left" movements -- from the top left to the bottom right, where n of those are for "right" movements and the other n for "down" movements. Let S = {1, 2, ..., 2n}, where the k \in S denotes the k-th movement.
+
 Rephrased in this way, the problem asks for us to count the number of subsets X \subset S where |X| = n -- just use X to denote all the movements in S that are of the "down" type, for example. That number, of course, is (2n choose n). For our particular case, we get that there are (40 choose 20) = 137846528820 such routes through a 20 x 20 grid. \qed
